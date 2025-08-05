@@ -44,15 +44,18 @@ The Smart Energy Forecast & Scheduling System is an AI-powered prototype that de
 
 1. Clone the repository
 ```bash
-    git clone https://github.com/AtharvaAdmile/EnergiSense
+git clone https://github.com/AtharvaAdmile/EnergiSense
 ```
 
 ```bash
-   cd smart-energy-forecast
+cd EnergiSense
 ```
 2. Install dependencies
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Run the application
+```bash
+streamlit run src/app.py
+```
